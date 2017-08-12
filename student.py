@@ -5,8 +5,7 @@ import sys
 import MySQLdb
 
 def do_insert(db):
-    cursor = db.cursor()
-    id = input("input id(int) >>")
+
     name = raw_input("input name(string) >>")
     age = input("input age(int) >>")
     score = input("input score(float) >>")
